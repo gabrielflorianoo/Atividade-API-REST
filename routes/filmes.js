@@ -58,7 +58,7 @@ let validaAvaliacao = (req, res, next) => {
 
 // Rota para listar todos os filmes
 router.get("/", (req, res) => {
-    res.json({ status: true, list: FilmesModel.list() });
+    res.json({ status: true, lista: FilmesModel.list() });
 });
 
 // Rota para obter um filme pelo ID
